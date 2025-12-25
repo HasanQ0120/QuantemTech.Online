@@ -3,7 +3,7 @@
 import Link from 'next/link';
 
 export default function Hero() {
-  const whatsappNumber = '923001234567'; // Dummy number
+  const whatsappNumber = '923332820020'; // Dummy number
   const whatsappMessage = encodeURIComponent('Hi, I want to order from QuantumTech.');
 
   return (
@@ -19,12 +19,12 @@ export default function Hero() {
         <p className="text-quantum-primary text-xs sm:text-sm font-medium mb-2 sm:mb-4 uppercase tracking-wider">
           Next-gen gadgets. trusted, delivered.
         </p>
-        
+
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight px-2">
           Power up your world with{' '}
           <span className="text-quantum-primary">QuantumTech</span>.
         </h1>
-        
+
         <p className="text-quantum-textMuted text-base sm:text-lg md:text-xl mb-6 sm:mb-8 max-w-2xl mx-auto px-2">
           Curated smart tech products that enhance your daily life. Quality gadgets, trusted suppliers, delivered to your door.
         </p>
@@ -58,6 +58,12 @@ export default function Hero() {
           <span className="px-3 sm:px-4 py-1.5 sm:py-2 bg-quantum-bgAlt/80 backdrop-blur-sm border border-quantum-border rounded-full text-xs sm:text-sm text-quantum-textMuted">
             ✅ Products checked before listing
           </span>
+        </div>
+
+        {/* Demo Notice */}
+        <div className="mt-6 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-center text-sm text-white/80 mx-2">
+          <span className="font-semibold text-white">Demo build only.</span>{' '}
+          Products are not available for purchase.
         </div>
       </div>
     </section>
